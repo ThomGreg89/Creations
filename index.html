@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Creation</title>
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+    <div class="flex">
+        <div class="flex-child">
+            <div class="container">
+                <form id="contact">
+                    <h3>Basketball Team</h3>
+                    <h4>Enter Player Data</h4>
+                    <fieldset>
+                        <label>Name:</label><input id="name" placeholder="Your name" type="text" required>
+                    </fieldset>
+                    <fieldset>
+                        <label>Age:</label><input id="age" placeholder="Age" min="16" max="50" type="number" required>
+                    </fieldset>
+                    <fieldset>
+                        <label>Email:</label><input id="email" placeholder="Your Email Address" type="text" required>
+                    </fieldset>
+                    <fieldset>
+                        <label>Salary:</label><input id="salary" placeholder="Salary Per Month" min="0" type="number" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <button type="submit" id="addbtn">Add Player</button>
+                        <button type="button" id="displaybtn">Display All</button>
+                    </fieldset>
+                </form>
+                <p id="message">Player added</p>
+            </div>
+        </div>
+
+        <div id="output" class="flex-child-right">
+            <div>
+                <h2>Output</h2>
+            </div>
+            <p id="welcome">Welcome to the team!!!</p>
+            <p id="result"></p>
+        </div>
+    </div>
+    
+    <script src="JS/util.js" defer></script>
+    <script src="JS/script.js" defer></script>
+</body>
+</html>

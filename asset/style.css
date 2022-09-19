@@ -1,0 +1,26 @@
+input {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+#contact {
+  background-color: grey;
+  width: 50%;
+  border-style:double;
+}
+
+body{
+  background-color: #2b5885;
+}
+
+h3, h4 {
+  padding-left: 10px;
+}
